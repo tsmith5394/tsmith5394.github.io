@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tyler's Example Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</head>
+<body class="contact-page">
+    <header class="contact-header">
+      <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="home">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./team.html">Our Team</a>
+        <a class="active" href="./contact.html">Contact</a>
+        <span class="social-media-container">
+          <a class="social-media" href="https://facebook.com"><img src="assets/images/fbblue.png"/></a>
+          <a class="social-media" href="https://twitter.com"><img src="assets/images/twitterbluebox.png"/></a>
+          <a class="social-media" href="https://instagram.com"><img src="assets/images/instagram.png"/></a>
+        </span>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div> 
+                  
+    </header>
+    <div class="container">
+      <div class="col-xs-12">
+        <span><h1>Contact Us</h1></span>
+          <h3>Office Phone: 777 - 777 - 7777</h3> 
+          <h3>Email: contact@companywebsite.com</h3>
+        </div>
+      </div>
+</body>
+</html>
