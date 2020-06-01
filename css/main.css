@@ -94,8 +94,6 @@
   padding: 15px;
   margin-top: 100px;
   color: #e75b5c;
-  width: 100%;
-  overflow-wrap: break-word;
 }
 .contact-page h3{
   padding: 15px;
@@ -212,6 +210,14 @@
     .topnav a.icon {
       float: right;
       display: block;
+    }
+    .contact-page .container{
+      background-color: rgba(0, 0, 0, 0.911);
+      padding: 15px;
+      margin-top: 100px;
+      color: #e75b5c;
+      width: 100%;
+      overflow-wrap: break-word;
     }
   }
   
